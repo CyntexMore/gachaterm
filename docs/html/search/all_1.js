@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['background_5fstrength_0',['background_strength',['../structCanvas.html#af0b37268ab94dd8072d28a082a9cb900',1,'Canvas']]],
+  ['bg_5fblack_1',['BG_BLACK',['../print_8h.html#a0e5ebbe291d95cf1b8f1661252722fe0',1,'print.h']]],
+  ['bg_5fblue_2',['BG_BLUE',['../print_8h.html#a9afd14c731aa8c62d9471913c1b23b9f',1,'print.h']]],
+  ['bg_5fcyan_3',['BG_CYAN',['../print_8h.html#a21ef237e1c4d69656729da4b34c31d8b',1,'print.h']]],
+  ['bg_5fgreen_4',['BG_GREEN',['../print_8h.html#ac351fb4567ed6655a5b39769cc5dfd04',1,'print.h']]],
+  ['bg_5fpurple_5',['BG_PURPLE',['../print_8h.html#a5fdc2ec1348ef72d60ad939a2c837f1a',1,'print.h']]],
+  ['bg_5fred_6',['BG_RED',['../print_8h.html#ac317d04c219b630f9c36b0241d9d4be7',1,'print.h']]],
+  ['bg_5fwhite_7',['BG_WHITE',['../print_8h.html#a6beded3f171517df3902c52f79f6fea2',1,'print.h']]],
+  ['bg_5fyellow_8',['BG_YELLOW',['../print_8h.html#ab31fe3e74b1137650d30ede5c9b86218',1,'print.h']]],
+  ['bl_9',['BL',['../print_8h.html#aa2b7521f0271483fbcb7302c4a01a766af603e0d046225e81459ffe6d8ee5ba6b',1,'print.h']]],
+  ['black_10',['BLACK',['../print_8h.html#a7b3b25cba33b07c303f3060fe41887f6',1,'print.h']]],
+  ['blue_11',['BLUE',['../print_8h.html#a79d10e672abb49ad63eeaa8aaef57c38',1,'print.h']]],
+  ['bold_5fblack_12',['BOLD_BLACK',['../print_8h.html#a7b6e436cdd428f9257bbc177197b81e7',1,'print.h']]],
+  ['bold_5fblue_13',['BOLD_BLUE',['../print_8h.html#a085159bf5578cb27037b75eda75b3b83',1,'print.h']]],
+  ['bold_5fcyan_14',['BOLD_CYAN',['../print_8h.html#a62f05b1e00666a7e59003a86c1ca68d6',1,'print.h']]],
+  ['bold_5fgreen_15',['BOLD_GREEN',['../print_8h.html#a08800e737f550f758120b8e717789a56',1,'print.h']]],
+  ['bold_5fpurple_16',['BOLD_PURPLE',['../print_8h.html#a41ce3f573757cf1aa39293ca7997e6c2',1,'print.h']]],
+  ['bold_5fred_17',['BOLD_RED',['../print_8h.html#a58f9401d546703859ab9c8720c61ee9e',1,'print.h']]],
+  ['bold_5fwhite_18',['BOLD_WHITE',['../print_8h.html#a9489fe820b5e8eb3cbd187a2d0813004',1,'print.h']]],
+  ['bold_5fyellow_19',['BOLD_YELLOW',['../print_8h.html#a1657fd9211b5650e98b0ebd377a74e47',1,'print.h']]],
+  ['border_20',['border',['../structCanvas.html#a773a3716685b359548abe4eef3119268',1,'Canvas']]],
+  ['bottom_21',['BOTTOM',['../print_8h.html#aa2b7521f0271483fbcb7302c4a01a766a8c371f4e766fb2c49c219bbc88989461',1,'print.h']]],
+  ['br_22',['BR',['../print_8h.html#aa2b7521f0271483fbcb7302c4a01a766a60a57eed407e7df8eb3bf49f61a042c1',1,'print.h']]]
+];
