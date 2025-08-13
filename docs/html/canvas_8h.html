@@ -92,11 +92,13 @@ $(function(){initNavTree('canvas_8h.html','',''); });
   <div class="headertitle"><div class="title">canvas.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="print_8h_source.html">print.h</a>&quot;</code><br />
+</div>
 <p><a href="canvas_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:Cell" id="r_Cell"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCell.html">Cell</a></td></tr>
 <tr class="memitem:Canvas" id="r_Canvas"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCanvas.html">Canvas</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -107,8 +109,50 @@ Functions</h2></td></tr>
 <tr class="memdesc:a5df0005fb2303d51da336a4f25476669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a <span class="tt"><a class="el" href="structCanvas.html">Canvas</a></span> object.  <br /></td></tr>
 <tr class="memitem:afacbf2cf063e7da30fa3b86e9acad84c" id="r_afacbf2cf063e7da30fa3b86e9acad84c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afacbf2cf063e7da30fa3b86e9acad84c">clear_canvas</a> (<a class="el" href="structCanvas.html">Canvas</a> *canvas)</td></tr>
 <tr class="memdesc:afacbf2cf063e7da30fa3b86e9acad84c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the canvas.  <br /></td></tr>
+<tr class="memitem:a6f6623decdc6fcede12d59725f0eeb50" id="r_a6f6623decdc6fcede12d59725f0eeb50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f6623decdc6fcede12d59725f0eeb50">canvas_set_pixel</a> (<a class="el" href="structCanvas.html">Canvas</a> *canvas, int x, int y, const char *character, <a class="el" href="print_8h.html#a0a8ef1b5e1941b7257e545cc33405ff1">color_t</a> fg, <a class="el" href="print_8h.html#a0a8ef1b5e1941b7257e545cc33405ff1">color_t</a> bg)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a6f6623decdc6fcede12d59725f0eeb50" name="a6f6623decdc6fcede12d59725f0eeb50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f6623decdc6fcede12d59725f0eeb50">&#9670;&#160;</a></span>canvas_set_pixel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void canvas_set_pixel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCanvas.html">Canvas</a> *</td>          <td class="paramname"><span class="paramname"><em>canvas</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>character</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="print_8h.html#a0a8ef1b5e1941b7257e545cc33405ff1">color_t</a></td>          <td class="paramname"><span class="paramname"><em>fg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="print_8h.html#a0a8ef1b5e1941b7257e545cc33405ff1">color_t</a></td>          <td class="paramname"><span class="paramname"><em>bg</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afacbf2cf063e7da30fa3b86e9acad84c" name="afacbf2cf063e7da30fa3b86e9acad84c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afacbf2cf063e7da30fa3b86e9acad84c">&#9670;&#160;</a></span>clear_canvas()</h2>
 
@@ -203,7 +247,7 @@ Functions</h2></td></tr>
 
 <p>Initializes a <span class="tt"><a class="el" href="structCanvas.html">Canvas</a></span> object. </p>
 <ul>
-<li>This function initializes a <span class="tt"><a class="el" href="structCanvas.html">Canvas</a></span> object based on the arguments passed to it. The only reason to use this instead of making a struct directly is that this function validates input.</li>
+<li>This function initializes a <span class="tt"><a class="el" href="structCanvas.html">Canvas</a></span> object based on the arguments passed to it. The only reason to use this instead of making a struct directly is that this function validates input and allocates memory for cells automatically.</li>
 <li><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">width</td><td>A value of type <span class="tt">int</span>. The canvas's width. </td></tr>

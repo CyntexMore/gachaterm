@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 #include "print.h"
 #include "canvas.h"
@@ -23,12 +24,13 @@ void draw_canvas(Canvas* canvas) {
     printf("┐");
   }
 
-  for (int i = 0; i < canvas->height; i++) {
+  for (int y = 0; y < canvas->height; y++) {
     printf("\n");
     if (canvas->border) printf("│");
 
-    for (int ii = 0; canvas->autosize == 1 ? ii < canvas->width*2 : ii < canvas->width; ii++) {
-      print_shaded_cell(canvas->background_strength);
+    for (int x = 0; canvas->autosize == 1 ? x < canvas->width*2 : x < canvas->width; x++) {
+      Cell* cell = &canvas->cells[y * canvas->width + x];
+      print_colored_bg(cell->fg_color, cell->bg_color, "%s", cell->character);
     }
 
     if (canvas->border) printf("│");
@@ -45,11 +47,21 @@ void draw_canvas(Canvas* canvas) {
   }
 }
 
+void canvas_set_pixel(Canvas* canvas, int x, int y, const char* character, color_t fg, color_t bg) {
+  if (x >= 0 && x < canvas->width && y >= 0 && y < canvas->height) {
+    Cell* cell = &canvas->cells[y * canvas->width + x];
+    strcpy(cell->character, character);
+    cell->fg_color = fg;
+    cell->bg_color = bg;
+  }
+}
+
 /**
  * @brief Initializes a `Canvas` object.
  * * This function initializes a `Canvas` object based on the arguments
  * passed to it. The only reason to use this instead of making a struct
- * directly is that this function validates input. 
+ * directly is that this function validates input and allocates memory
+ * for cells automatically. 
  * * @param width A value of type `int`. The canvas's width.
  * @param height A value of type `int`. The canvas's height.
  * @param background_strength A value of type `int`. The canvas's background's
@@ -92,6 +104,16 @@ Canvas init_canvas(int width, int height, int background_strength, int border, i
   }
 
   Canvas canvas = {width, height, background_strength, border, autosize};
+
+  canvas.cells = malloc(width * height * sizeof(Cell));
+
+  for (int i = 0; i < width * height; i++) {
+    strcpy(canvas.cells[i].character, " ");
+    canvas.cells[i].fg_color = COLOR_WHITE;
+    canvas.cells[i].bg_color = COLOR_BLACK;
+    canvas.cells[i].bold = 0;
+  }
+
   return canvas;
 }
 

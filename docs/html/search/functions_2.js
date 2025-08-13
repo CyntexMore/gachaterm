@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['get_5fbg_5fcolor_5fcode_0',['get_bg_color_code',['../print_8c.html#a5886a4352efef19d6b5540e9f411c470',1,'get_bg_color_code(color_t color):&#160;print.c'],['../print_8h.html#a5886a4352efef19d6b5540e9f411c470',1,'get_bg_color_code(color_t color):&#160;print.c']]],
-  ['get_5fcolor_5fcode_1',['get_color_code',['../print_8c.html#a3266926075a727809493a51ee3bf23d8',1,'get_color_code(color_t color, int bold):&#160;print.c'],['../print_8h.html#a3266926075a727809493a51ee3bf23d8',1,'get_color_code(color_t color, int bold):&#160;print.c']]]
+  ['execute_0',['execute',['../gachashade_8h.html#a950bbb579fa5f84f3c6e7c902dd9411e',1,'execute(Canvas *canvas, float time):&#160;plasma.c'],['../plasma_8c.html#a950bbb579fa5f84f3c6e7c902dd9411e',1,'execute(Canvas *canvas, float time):&#160;plasma.c']]]
 ];

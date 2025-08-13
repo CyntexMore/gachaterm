@@ -25,6 +25,16 @@
 var NAVTREE =
 [
   [ "gachaterm", "index.html", [
+    [ "GachaTerm Engine Documentation", "index.html", "index" ],
+    [ "GachaShade Language Reference", "shader_lang.html", [
+      [ "The GachaShade Language", "shader_lang.html#autotoc_md2", [
+        [ "The Shader Entry Point", "shader_lang.html#autotoc_md3", null ],
+        [ "Built-in Types and Functions", "shader_lang.html#autotoc_md4", [
+          [ "Types", "shader_lang.html#autotoc_md5", null ],
+          [ "Core API", "shader_lang.html#autotoc_md6", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -38,6 +48,7 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]

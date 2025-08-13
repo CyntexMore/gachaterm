@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['get_5fbg_5fcolor_5fcode_0',['get_bg_color_code',['../print_8c.html#a5886a4352efef19d6b5540e9f411c470',1,'get_bg_color_code(color_t color):&#160;print.c'],['../print_8h.html#a5886a4352efef19d6b5540e9f411c470',1,'get_bg_color_code(color_t color):&#160;print.c']]],
-  ['get_5fcolor_5fcode_1',['get_color_code',['../print_8c.html#a3266926075a727809493a51ee3bf23d8',1,'get_color_code(color_t color, int bold):&#160;print.c'],['../print_8h.html#a3266926075a727809493a51ee3bf23d8',1,'get_color_code(color_t color, int bold):&#160;print.c']]],
-  ['green_2',['GREEN',['../print_8h.html#acfbc006ea433ad708fdee3e82996e721',1,'print.h']]]
+  ['fg_5fcolor_0',['fg_color',['../structCell.html#ac259c5db684f196069693a265f545468',1,'Cell']]],
+  ['fourth_1',['FOURTH',['../print_8h.html#acf197cea53ab3c8ec5fc668fa60efe22a519a1e3fe5842163710362d4d04e1689',1,'print.h']]],
+  ['full_2',['FULL',['../print_8h.html#acf197cea53ab3c8ec5fc668fa60efe22ad08f8ac0aa8dfb59589824359772459e',1,'print.h']]],
+  ['functions_3',['Built-in Types and Functions',['../shader_lang.html#autotoc_md4',1,'']]]
 ];

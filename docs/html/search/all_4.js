@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['fourth_0',['FOURTH',['../print_8h.html#acf197cea53ab3c8ec5fc668fa60efe22a519a1e3fe5842163710362d4d04e1689',1,'print.h']]],
-  ['full_1',['FULL',['../print_8h.html#acf197cea53ab3c8ec5fc668fa60efe22ad08f8ac0aa8dfb59589824359772459e',1,'print.h']]]
+  ['engine_20documentation_0',['GachaTerm Engine Documentation',['../index.html',1,'']]],
+  ['entry_20point_1',['The Shader Entry Point',['../shader_lang.html#autotoc_md3',1,'']]],
+  ['execute_2',['execute',['../gachashade_8h.html#a950bbb579fa5f84f3c6e7c902dd9411e',1,'execute(Canvas *canvas, float time):&#160;plasma.c'],['../plasma_8c.html#a950bbb579fa5f84f3c6e7c902dd9411e',1,'execute(Canvas *canvas, float time):&#160;plasma.c']]]
 ];
